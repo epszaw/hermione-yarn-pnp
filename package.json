@@ -1,4 +1,14 @@
 {
   "name": "hermione-yarn-pnp",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "test": "hermione"
+  },
+  "resolutions": {
+    "webdriverio": "8.20.0"
+  },
+  "devDependencies": {
+    "allure-hermione": "^2.9.2",
+    "hermione": "^7.3.0"
+  }
 }
